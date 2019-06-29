@@ -147,44 +147,60 @@ td {
 /* Set up media queries for screen sizes 640px, 768px and 980px */
  
 @media screen and (min-width: 769px) and (max-width: 980px) {
-    .container {
-        width: calc(100% - 40px);
-    }
+    
     section {
         width: calc(100% - 40px);;
 
+    }
+    .container {
+        width: calc(100% - 40px);
     }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    .container {
-        width: calc(100% - 40px);
-    }
+
     section {
         width: calc(100% - 40px);;
 
     }
+    .container {
+        width: calc(100% - 40px);
+    }
 }
 
 @media screen and (max-width: 640px) {
-    .container {
-        width: calc(100% - 40px);
-        margin: 0;
-    }
-
     section {
         width: calc(100% - 40px);
 
     }
 
     nav {
-          text-align: center;
-          
+          float: none;
     }
 
     h1 {
             text-align: center;
             width: 100vw;
             padding: 10px 0;
+    }
+    
+    h1::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    li {
+        line-height: 150%;
+        list-style-position: outside;
+    }
+
+    #aboutImage {
+        width: calc(100% - 40px);
+        height: auto;
+    }
+    .container {
+        width: calc(100% - 40px);
+        margin: 0;
     }
 }
