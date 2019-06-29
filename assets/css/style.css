@@ -114,6 +114,8 @@ td {
     position: relative;
 }
 
+
+
 /* class and id styles after here */
 
 .clearfix::after {
@@ -135,6 +137,14 @@ td {
     color: #fff;
     background-color: #4aaaa5;
     bottom: 30px;
+}
+
+.col {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    position: relative;
+    float:left;
 }
 
 #aboutImage {
