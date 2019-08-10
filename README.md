@@ -1,5 +1,7 @@
-This is Assignment 2, Responsive Portfolio.
+# James Rudd
 
-Main structure has been copied from Assignment 1.
-Media Queries have been used to create a more responsive web page. 
-I have incorporated the feedback from assignment 1 to better structure my pages.
+## My Portfolio repo
+
+Please find included a brief description of myself including my background and experience.
+You'll also find a portfolio page listing some of my more notable pages that I've developed.
+There is also a contact page that you can use to initiate contact with myself and my company
